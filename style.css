@@ -130,13 +130,13 @@ h3 {
 }
 
 .list {
-  list-style: disc;
-  padding-left: 1.2rem;
+  list-style: none;
+  padding-left: 0;
   margin-top: 0.5rem;
 }
 
 .list li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0;
 }
 
 .skills {

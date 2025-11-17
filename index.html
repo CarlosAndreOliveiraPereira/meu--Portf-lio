@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portfólio profissional de Carlos Andre Oliveira Pereira com foco em infraestrutura de TI, suporte técnico e desenvolvimento de dados."
+      content="Portfólio profissional de Carlos Andre Oliveira Pereira com foco em infraestrutura de TI, suporte técnico, ambientes em nuvem e Big Data."
     />
     <title>Carlos Andre Oliveira Pereira · Portfólio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +14,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-pO12X9FvWz6vjIhdckpJnwYllHyBs+K6TfXYy3jHK5vVsQt1zAr72Xd1LSeX776BFdd7THBvb8uNE0C1Q0QpKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-pO12X9FvWz6vjIhdckpJnwYllHyBs+K6TfXYy3jHK5vVsQt1zAr72Xd1LSeX776BFdd7THBvb8uNE0C1Q0QpKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -24,7 +30,12 @@
         <span class="brand__text">Carlos Andre O. Pereira</span>
       </div>
       <nav class="nav" aria-label="Navegação principal">
-        <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+        <button
+          class="nav__toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-list"
+        >
           <span class="nav__icon" aria-hidden="true"></span>
           <span class="sr-only">Menu</span>
         </button>
@@ -40,13 +51,20 @@
     <main>
       <section class="shell hero" id="sobre">
         <div class="hero__media">
-          <img src="./1736455700123.jpeg" alt="Foto de perfil de Carlos Andre Oliveira Pereira" class="hero__photo" />
+          <img
+            src="./1736455700123.jpeg"
+            alt="Foto de perfil de Carlos Andre Oliveira Pereira"
+            class="hero__photo"
+          />
         </div>
         <div class="hero__content">
           <p class="eyebrow">Infraestrutura · Suporte · Dados</p>
           <h1 class="hero__title">Carlos Andre Oliveira Pereira</h1>
           <p class="hero__lead">
-            Profissional de tecnologia especializado em infraestrutura de TI, ambientes em nuvem, suporte técnico e automação de processos.
+            Profissional de tecnologia especializado em infraestrutura de TI,
+            suporte a usuários via Movidesk, ambientes em nuvem AWS e bancos de
+            dados. Estudante de Big Data na UniCesumar, com foco em dados e
+            automação de processos.
           </p>
           <div class="hero__badges">
             <span class="badge">AWS</span>
@@ -65,63 +83,105 @@
       <section class="shell section" id="curriculo">
         <header class="section__header">
           <h2 class="section__title">Currículo</h2>
-          <p class="section__subtitle">Experiência, formação e competências que entregam resultados.</p>
+          <p class="section__subtitle">
+            Experiência, formação e competências que entregam resultados.
+          </p>
         </header>
 
         <div class="cards">
+          <!-- EXPERIÊNCIA PROFISSIONAL -->
           <article class="card card--accent">
             <h3 class="card__title">Experiência Profissional</h3>
             <div class="timeline">
               <div class="timeline__item">
                 <div class="timeline__meta">
-                  <span class="timeline__role">Profissional de Infraestrutura de TI</span>
+                  <span class="timeline__role"
+                    >Profissional de Infraestrutura de TI</span
+                  >
                   <span class="timeline__company">Grupo Mysa</span>
-                  <span class="timeline__time">Juiz de Fora · 2023 — atual</span>
+                  <span class="timeline__time"
+                    >Juiz de Fora · 2023 — atual</span
+                  >
                 </div>
                 <ul class="timeline__list">
-                  <li>Administração e monitoramento de workloads em nuvem AWS.</li>
-                  <li>Governança de identidades, e-mails e segurança no Microsoft 365.</li>
-                  <li>Gestão de redes LAN/Wi-Fi, servidores e suporte técnico nível 2.</li>
-                  <li>Automação de rotinas internas com Python, PHP e PowerShell.</li>
+                  <li>
+                    Atendimento de chamados de suporte de TI utilizando a
+                    plataforma Movidesk (Service Desk).
+                  </li>
+                  <li>
+                    Atividades básicas em AWS, como criação e gestão de usuários
+                    em ambientes de nuvem.
+                  </li>
+                  <li>
+                    Governança de identidades, e-mails e segurança no Microsoft
+                    365.
+                  </li>
+                  <li>
+                    Apoio em infraestrutura de redes, estações de trabalho e
+                    servidores, com foco em disponibilidade e desempenho.
+                  </li>
+                  <li>
+                    Automação de rotinas internas com Python, PHP e PowerShell
+                    para ganho de produtividade no suporte.
+                  </li>
                 </ul>
               </div>
             </div>
           </article>
 
+          <!-- FORMAÇÃO -->
           <article class="card">
             <h3 class="card__title">Formação</h3>
             <ul class="card__list">
               <li>
-                <span class="card__item-title">Curso de Desenvolvimento de Dados</span>
-                <span class="card__item-sub">Unisys do Mar — cursando</span>
+                <span class="card__item-title">Graduação em Big Data</span>
+                <span class="card__item-sub">UniCesumar — cursando</span>
               </li>
             </ul>
           </article>
 
+          <!-- CERTIFICAÇÕES E CURSOS -->
           <article class="card">
             <h3 class="card__title">Certificações e Cursos</h3>
-            <ul class="card__list card__list--grid">
-              <li>Python &amp; PHP</li>
-              <li>MySQL &amp; SQL Server</li>
-              <li>Infraestrutura e Redes</li>
-              <li>AWS Essentials</li>
-              <li>Microsoft 365 Administration</li>
+            <ul class="card__list">
+              <li>
+                Certificação Microsoft 365 (fundamentos de administração e
+                colaboração).
+              </li>
+              <li>
+                Cursos de AWS com foco em fundamentos de nuvem e preparação para
+                certificação em bancos de dados.
+              </li>
+              <li>
+                Cursos de AWS, MySQL, SQL Server e Linguagem SQL pela Udemy
+                (Udemy Academy).
+              </li>
+              <li>
+                Estudos contínuos em infraestrutura, suporte e boas práticas de
+                ITIL.
+              </li>
             </ul>
           </article>
 
+          <!-- COMPETÊNCIAS -->
           <article class="card">
             <h3 class="card__title">Competências</h3>
             <div class="tags">
               <span class="tag">Infraestrutura de TI</span>
-              <span class="tag">Automação</span>
-              <span class="tag">DevOps</span>
+              <span class="tag">Suporte Técnico</span>
+              <span class="tag">AWS</span>
+              <span class="tag">Microsoft 365</span>
               <span class="tag">Banco de Dados</span>
-              <span class="tag">Observabilidade</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Automação</span>
               <span class="tag">Documentação Técnica</span>
               <span class="tag">ITIL</span>
             </div>
           </article>
 
+          <!-- IDIOMAS -->
           <article class="card">
             <h3 class="card__title">Idiomas</h3>
             <ul class="card__list">
@@ -135,7 +195,9 @@
       <section class="shell section" id="portfolio">
         <header class="section__header">
           <h2 class="section__title">Portfólio</h2>
-          <p class="section__subtitle">Projetos que combinam automação, confiabilidade e foco no usuário.</p>
+          <p class="section__subtitle">
+            Projetos que combinam automação, confiabilidade e foco no usuário.
+          </p>
         </header>
 
         <div class="projects">
@@ -148,9 +210,16 @@
               </div>
             </div>
             <p class="project__summary">
-              Sistema web para cadastro e rastreamento de ativos de TI com controle de status, histórico e relatórios.
+              Sistema web para cadastro e rastreamento de ativos de TI com
+              controle de status, histórico e relatórios.
             </p>
-            <a class="project__link" href="https://github.com/CarlosAndreOliveiraPereira/gerenciador_de_ativos" target="_blank" rel="noopener">Ver no GitHub</a>
+            <a
+              class="project__link"
+              href="https://github.com/CarlosAndreOliveiraPereira/gerenciador_de_ativos"
+              target="_blank"
+              rel="noopener"
+              >Ver no GitHub</a
+            >
           </article>
 
           <article class="project">
@@ -162,9 +231,16 @@
               </div>
             </div>
             <p class="project__summary">
-              Bot para gestão de comunidades com integrações personalizadas, alertas automáticos e monitoramento.
+              Bot para gestão de comunidades com integrações personalizadas,
+              alertas automáticos e monitoramento.
             </p>
-            <a class="project__link" href="https://github.com/CarlosAndreOliveiraPereira/Discord-itboost" target="_blank" rel="noopener">Ver no GitHub</a>
+            <a
+              class="project__link"
+              href="https://github.com/CarlosAndreOliveiraPereira/Discord-itboost"
+              target="_blank"
+              rel="noopener"
+              >Ver no GitHub</a
+            >
           </article>
 
           <article class="project">
@@ -176,9 +252,16 @@
               </div>
             </div>
             <p class="project__summary">
-              Automação de mensagens em tempo real para squads de suporte, com priorização por criticidade.
+              Automação de mensagens em tempo real para squads de suporte, com
+              priorização por criticidade.
             </p>
-            <a class="project__link" href="https://github.com/CarlosAndreOliveiraPereira/Telegram-itboost" target="_blank" rel="noopener">Ver no GitHub</a>
+            <a
+              class="project__link"
+              href="https://github.com/CarlosAndreOliveiraPereira/Telegram-itboost"
+              target="_blank"
+              rel="noopener"
+              >Ver no GitHub</a
+            >
           </article>
         </div>
       </section>
@@ -186,14 +269,26 @@
       <section class="shell section section--muted" id="contato">
         <header class="section__header">
           <h2 class="section__title">Contato</h2>
-          <p class="section__subtitle">Aberto a novas oportunidades, projetos e parcerias estratégicas.</p>
+          <p class="section__subtitle">
+            Aberto a novas oportunidades, projetos e parcerias estratégicas.
+          </p>
         </header>
         <div class="contact">
-          <a class="contact__button" href="https://wa.me/5532991004523" target="_blank" rel="noopener">
+          <a
+            class="contact__button"
+            href="https://wa.me/5532991004523"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fab fa-whatsapp"></i>
             <span>WhatsApp</span>
           </a>
-          <a class="contact__button" href="https://linkedin.com/in/carlos-andre-oliveira-pereira-68219a19b" target="_blank" rel="noopener">
+          <a
+            class="contact__button"
+            href="https://linkedin.com/in/carlos-andre-oliveira-pereira-68219a19b"
+            target="_blank"
+            rel="noopener"
+          >
             <i class="fab fa-linkedin"></i>
             <span>LinkedIn</span>
           </a>
@@ -206,7 +301,10 @@
     </main>
 
     <footer class="shell footer">
-      <p>© <span id="year"></span> Carlos Andre Oliveira Pereira. Todos os direitos reservados.</p>
+      <p>
+        © <span id="year"></span> Carlos Andre Oliveira Pereira. Todos os
+        direitos reservados.
+      </p>
     </footer>
 
     <script src="script.js"></script>
